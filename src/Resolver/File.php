@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace Magento\Upward\Resolver;
 
 use Magento\Upward\Definition;
-
+use Laminas\Http\Response;
 class File extends AbstractResolver
 {
     /**
