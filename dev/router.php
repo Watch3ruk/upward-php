@@ -7,7 +7,7 @@
 declare(strict_types=1);
 
 $controller = require __DIR__ . '/bootstrap-controller.php';
-/** @var \Zend\Http\Response $response */
+/** @var \Laminas\Http\Response $response */
 $response = $controller();
 
 header($response->renderStatusLine());
