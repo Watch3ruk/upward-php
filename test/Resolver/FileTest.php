@@ -14,6 +14,7 @@ use Magento\Upward\Resolver\File;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use PHPUnit\Framework\TestCase;
+use Laminas\Http\Response;
 use function BeBat\Verify\verify;
 
 class FileTest extends TestCase
