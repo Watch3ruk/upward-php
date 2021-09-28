@@ -10,6 +10,7 @@ namespace Magento\Upward\Test;
 
 use Magento\Upward\Definition;
 use PHPUnit\Framework\TestCase;
+use Laminas\Http\Response;
 use function BeBat\Verify\verify;
 
 class DefinitionTest extends TestCase
