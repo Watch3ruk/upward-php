@@ -13,6 +13,7 @@ use Mockery;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use PHPUnit\Framework\TestCase;
 use Laminas\Http\PhpEnvironment\Request;
+use Laminas\Http\Response;
 use function BeBat\Verify\verify;
 
 class ContextTest extends TestCase
